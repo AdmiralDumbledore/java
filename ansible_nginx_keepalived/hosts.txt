@@ -1,0 +1,6 @@
+[loadbalancers]
+ha1 ansible_host=192.168.56.139
+ha2 ansible_host=192.168.56.137
+[webservers]
+web1 ansible_host=192.168.56.139
+web2 ansible_host=192.168.56.137

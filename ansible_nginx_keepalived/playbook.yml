@@ -1,0 +1,11 @@
+---
+- hosts: webservers
+  become: true
+  roles:
+  - nginx
+  
+- hosts: loadbalancers
+  become: true
+  roles:
+    - keepalived
+    
