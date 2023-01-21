@@ -1,6 +1,6 @@
-java_spring_hello_world/HELP.md
+HELP.md
 target/
-!java_spring_hello_world/.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -14,7 +14,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-java_spring_hello_world/.idea
+.idea
 *.iws
 *.iml
 *.ipr
