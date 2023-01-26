@@ -52,6 +52,5 @@ spec:
     - port: 9092
       protocol: TCP
       targetPort: 9092
-  type: NodePort
   selector:
     tier: backend
